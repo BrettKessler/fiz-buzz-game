@@ -10,6 +10,8 @@ $( document ).ready(function() {
 			return 'Buzz'
 		} else if(nums % 3 === 0){
 			return 'Fizz'
+		} else {
+			return nums
 		}
 
 	};
@@ -20,9 +22,3 @@ $( document ).ready(function() {
 		$("#fizz-buzz-output").text(getNumbers(inputValue));
 	});
 });
-
-
-
-
-
-	
