@@ -1,8 +1,6 @@
 $( document ).ready(function() {
 
     function getNumbers(nums){
-		
-
 		// iterates through these to determine if fiz, buzz or fizzbuzz.
 		if(nums % 15 === 0){
 			return 'Fizz Buzz'
@@ -13,7 +11,6 @@ $( document ).ready(function() {
 		} else {
 			return nums
 		}
-
 	};
 	$('#click').click(function(){
 		// Gets value from input box.
