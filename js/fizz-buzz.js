@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-
+	//supplies the getNumbers function with vars if needed.
 	var divisTwo;
 	var divisThree;
 
@@ -28,9 +28,10 @@ $( document ).ready(function() {
 	$('#click').click(function(){
 		// Gets value from input box.
 		var inputValue = document.getElementById("fizz-input").value;
-		// appends text to an h2 in the html
+		// appends text to an h2 in the html.
 		$("#fizz-buzz-output").text(getNumbers(inputValue));
 	});
+	// gets values to change the names of fuzz or bizz.
 	$('#change-names').click(function test(name){
 		var multiTwo = document.getElementById("multiples-of-two").value;
 		var multiThree = document.getElementById("multiples-of-three").value;
